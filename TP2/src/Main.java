@@ -73,8 +73,11 @@ public class Main {
                     break;
 
                 case 15:
-                    Ejercicios.practicaArrayDoble();
+                    Ejercicios.ej15();
                     break;
+
+                case 16:
+                    Ejercicios.ej16();
             }
         }
     }

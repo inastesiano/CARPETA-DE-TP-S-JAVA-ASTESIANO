@@ -154,7 +154,7 @@ public class Ejercicios {
         JOptionPane.showMessageDialog(null, "Ejercicio 14:\n Los tipos de datos primitivos acceden al valor asociado directo y los datos por referencia almacenan la dirección de memoria.");
     }
 
-    public static void pruebaArreglos() {
+    /*public static void pruebaArreglos() {
 
         int notas[] = new int[10];
         Scanner teclado = new Scanner(System.in);
@@ -188,5 +188,16 @@ public class Ejercicios {
                 System.out.println("Fila: " + fila + " / Columna: " + col);
             }
         }
+    }*/
+
+    public static void ej15(){
+        JOptionPane.showMessageDialog(null, "El programa muestra ERROR: no puedo almacenar null en un tipo de dato primitivo con lo es un int.");
     }
+
+    public static void ej16(){
+
+        JOptionPane.showMessageDialog(null, "El código queda:\nDouble num = 3.3;\ndouble num1= num;\nSystem.out.println(num1);");
+
+    }
+
 }
